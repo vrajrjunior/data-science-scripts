@@ -1,5 +1,7 @@
-a = float(input('Entre com o valor de A: '))
-b = float(input('Entre com o valor de B: '))
-c = float(input('Entre com o valor de C: '))
+import pandas as pd
+import numpy as np
 
-print('O resultado é:', a + b - c + (a * c) / a**2)
+dicionario = {'nome': ['João', 'Maria', 'José'], 'idade': [20, 21, 22]}
+
+df = pd.DataFrame(dicionario)
+print(df)
