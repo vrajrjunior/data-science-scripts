@@ -1,9 +1,9 @@
 import random as rd
 
+numero_aleatorio = rd.randint(0, 10)
 palpites_restantes = 3
 
 while palpites_restantes > 0:
-  numero_aleatorio = rd.randint(0, 10)
   palpite = input('Entre com um número entre 0 e 10 ou digite "sair". Você terá 3 tentativas.\t')
   if palpite == 'sair':
     print("\nVocê saiu do programa. Até breve!!!")
