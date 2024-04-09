@@ -15,3 +15,15 @@ class Operacoes:
   
   def divisao(self):
     return f'{self.val1} / {self.val2} = {(self.val1 / self.val2)}'
+
+
+######
+##Chamando a classe no proprio arquivo
+######
+operacoes = Operacoes(10,20)
+
+print('Adição:', operacoes.adicao())
+print('Subtração:', operacoes.subtracao())
+print('Multiplicação:', operacoes.multiplicacao())
+print('Divisão:', operacoes.divisao())
+
