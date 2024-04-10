@@ -20,9 +20,11 @@ class Operacoes:
 ######
 ##Chamando a classe no proprio arquivo
 ######
-operacoes = Operacoes(10,20)
+valor1 = input('\nEntre com o primeiro valor:\t')
+valor2 = input('Entre com o segundo valor:\t')
 
-print('Adição:', operacoes.adicao())
+operacoes = Operacoes(float(valor1),float(valor2))
+print('\nAdição:', operacoes.adicao())
 print('Subtração:', operacoes.subtracao())
 print('Multiplicação:', operacoes.multiplicacao())
 print('Divisão:', operacoes.divisao())
