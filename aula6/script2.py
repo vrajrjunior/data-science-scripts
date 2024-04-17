@@ -3,7 +3,8 @@ import pandas as pd
 mtcars = pd.read_csv('mtcars.csv', sep=',')
 mtcars = mtcars.sort_values(by='hp', ascending=False)
 
-
+print('Matriz ordenada')
+print(mtcars)
 
 print('\nQual o carro com mais HP?')
 print(f'O carro com mais HP é o {mtcars.iloc[0,0]}, com {mtcars.iloc[0,4]}hp de potência.')
